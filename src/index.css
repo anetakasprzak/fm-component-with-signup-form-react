@@ -1,0 +1,173 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 2.6rem;
+  font-weight: 500;
+
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 37.5rem;
+  padding: 8.8rem 2.4rem 8.8rem 2.4rem;
+  background-color: #ff7979;
+  background-image: url("../public/images/bg-intro-mobile.png");
+}
+
+.header__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.6rem;
+  margin-bottom: 6.4rem;
+}
+
+.header__heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  letter-spacing: -0.292px;
+}
+
+.header__p {
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+
+.try__p {
+  padding: 1.8rem 6.6rem 1.8rem 6.7rem;
+  border-radius: 10px;
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 2.4rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.268px;
+  font-weight: 400;
+}
+
+.try__span {
+  font-weight: 700;
+}
+
+.form__section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  padding: 2.4rem;
+}
+
+.input {
+  color: #3d3b48;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: 0.25px;
+  opacity: 0.75;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  padding: 1.5rem 10rem 1.5rem 2rem;
+}
+
+.form__btn {
+  border-radius: 0.5rem;
+  background: #38cc8b;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  line-height: 2.6rem;
+}
+
+.form__p {
+  color: #bab7d4;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -0.8rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.form__span {
+  color: #ff7979;
+  font-weight: 700;
+}
+
+/*********** DESKTOP ***********/
+
+@media only screen and (min-width: 90em) {
+  .wrapper {
+    width: 144rem;
+    height: 100vh;
+    padding: 12.1rem 16.5rem 12.1rem 16.5rem;
+    background-color: #ff7979;
+    background-image: url("../public/images/bg-intro-desktop.png");
+    display: flex;
+    gap: 4.5rem;
+  }
+
+  .header__section {
+    text-align: start;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 8rem;
+    max-width: 52.5rem;
+  }
+
+  .header__heading {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.521px;
+  }
+
+  .cta {
+    width: 54rem;
+  }
+
+  .try__p {
+    padding: 1.7rem 11.2rem 1.7rem 11.2rem;
+  }
+
+  .form__section {
+    gap: 2rem;
+    padding: 4rem;
+  }
+
+  .input {
+    padding: 1.5rem 10rem 1.5rem 3.2rem;
+  }
+
+  .form__btn {
+    padding: 1.5rem 13.5rem 1.5rem 13.6rem;
+  }
+
+  .form__p {
+    line-height: 2.6rem;
+    margin-top: -2rem;
+  }
+}
