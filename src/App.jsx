@@ -66,7 +66,7 @@ function Form() {
               <span className="error">First Name cannot be empty</span>
               <img
                 className="icon-error"
-                src="../public/images/icon-error.svg"
+                src="/images/icon-error.svg"
                 alt="Error"
               />
             </div>
@@ -86,7 +86,7 @@ function Form() {
               <span className="error">Last Name cannot be empty</span>
               <img
                 className="icon-error"
-                src="../public/images/icon-error.svg"
+                src="/images/icon-error.svg"
                 alt="Error"
               />
             </>
@@ -106,7 +106,7 @@ function Form() {
               <span className="error">Looks like this is not an email</span>
               <img
                 className="icon-error"
-                src="../public/images/icon-error.svg"
+                src="/images/icon-error.svg"
                 alt="Error"
               />
             </>
@@ -126,7 +126,7 @@ function Form() {
               <span className="error">Password cannot be empty</span>
               <img
                 className="icon-error"
-                src="../public/images/icon-error.svg"
+                src="/images/icon-error.svg"
                 alt="Error"
               />
             </>
